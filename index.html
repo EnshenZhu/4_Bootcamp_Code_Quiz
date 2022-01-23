@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 
-<body>
+<body class="all-body">
 
     <header>
         <h1 class="page-title">Code Quiz</h1>
@@ -15,18 +15,19 @@
 
         <form>
             <div class="form-group">
-                <button class="btn">Instruction</button>
+                <input class="input-text" id="player-name" placeholder="Please Enter Your Name">
                 <button class="btn" id="quiz-start">Start</button>
             </div>
         </form>
     </header>
 
     <main class="page-content" id="page-content">
-        <section class="question-sheet">
+        <form class="question-sheet">
             <h3 class="question-title">
                 Welcome to the Quiz<br>
-                Press <strong>[Start]</strong> button to start the quiz</h3>
-        </section>
+                Press <strong>[Start]</strong> button to start the quiz
+            </h3>
+        </form>
     </main>
     
     <script src="assets\js\script.js"></script>

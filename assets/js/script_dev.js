@@ -21,6 +21,7 @@ var questionCounter=0
 // select a couple of html elements
 var pageContent=document.querySelector("#page-content")
 var formEl=document.querySelector(".form-group")
+var questinSheet=document.querySelector(".question-sheet")
 var startBtn=document.querySelector("#quiz-start");
 var questionTitleEl=document.querySelector("#question-title");
 
@@ -57,4 +58,4 @@ var startQuiz=function(){
 };
 
 startBtn.addEventListener("click",startQuiz);
-formEl.addEventListener("click",restartQuiz);
+questinSheet.addEventListener("click",restartQuiz);
